@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 500px;
+    height: 500px
+}
+
+.frow, .trow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.srow{
+    margin: 20px 0;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
